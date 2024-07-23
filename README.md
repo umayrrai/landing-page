@@ -1,5 +1,3 @@
 # Landing Page
 
-Website [ClickME](http://umayrrai.com)
-
-Website [CLICK2](http://www.umayrrai.com)
+# [Website](http://umayrrai.com)
