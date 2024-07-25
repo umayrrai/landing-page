@@ -2965,11 +2965,13 @@ input, select, textarea {
 /* ... existing code ... */
 
 .profile-photo {
-  width: 50px; /* Adjust the size as needed */
-  height: 50px; /* Ensure the height matches the width for a perfect circle */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image covers the entire area */
-}
+	width: 150px; /* Adjust the size as needed */
+	height: 150px; /* Ensure the height matches the width for a perfect circle */
+	border-radius: 50%; /* Makes the image circular */
+	object-fit: cover; /* Ensures the image covers the entire area */
+	margin-top: 10px; /* Adjust the spacing as needed */
+	border: 2px solid #000;
+  }
 
 /* ... existing code ... */
 
@@ -3338,14 +3340,3 @@ input, select, textarea {
 			}
 
 		}
-
-/* Profile Photo */
-
-.profile-photo {
-  width: 150px; /* Adjust the size as needed */
-  height: 150px; /* Ensure the height matches the width for a perfect circle */
-  border-radius: 50%; /* Makes the image circular */
-  object-fit: cover; /* Ensures the image covers the entire area */
-  margin-top: 10px; /* Adjust the spacing as needed */
-  border: 2px solid #000;
-}
