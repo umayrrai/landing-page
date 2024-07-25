@@ -3336,4 +3336,5 @@ input, select, textarea {
   border-radius: 50%; /* Makes the image circular */
   object-fit: cover; /* Ensures the image covers the entire area */
   margin-top: 10px; /* Adjust the spacing as needed */
+  border: 2px solid #000;
 }
