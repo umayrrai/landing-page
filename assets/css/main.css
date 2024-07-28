@@ -221,7 +221,7 @@ html {
 body {
 	width: 100%;
 	overflow-x: hidden;
-	padding-top: 200px;
+	padding-top: 0;
 }
 
 body.is-preload *,
@@ -2704,8 +2704,6 @@ button:disabled,
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center; /* Center the tiles horizontally */
-	padding-top: 18em; /* Add some space below the tiles */
-	margin-bottom: -3em;
 }
 
 .tiles article {
@@ -3009,23 +3007,23 @@ body.is-touch .tiles article .content {
 }
 
 .welcome-text {
-    position: fixed;
+    position: relative; /* Changed from fixed to relative */
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px;
     z-index: 10001;
     color: #ffffff;
     text-align: center;
     width: 100%;
+	margin-top: 0;
 }
 
 .intro-text {
-	margin-left: 20%;
-    position: fixed;
+    margin-left: 20%;
+    position: relative; /* Changed from fixed to relative */
     top: 0;
-	font-size: 1.5em;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-top: 5em;
     z-index: 10001;
     color: #ffffff;
@@ -3047,6 +3045,7 @@ body.is-touch .tiles article .content {
 	-ms-transition: opacity 0.45s ease;
 	transition: opacity 0.45s ease;
 	opacity: 1;
+	padding-top: 0;
 }
 
 #menu {
@@ -3230,7 +3229,7 @@ body.is-menu-visible #menu .close {
 /* Main */
 
 #main {
-	padding: 0em 0 6em 0;
+	padding: 0;
 }
 
 @media screen and (max-width: 736px) {
@@ -3244,7 +3243,7 @@ body.is-menu-visible #menu .close {
 /* Footer */
 
 #footer {
-	position: fixed;
+	/* position: fixed; */
 	bottom: 0;
 	width: 100%;
 	padding: 10px 0;
